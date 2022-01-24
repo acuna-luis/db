@@ -32,4 +32,11 @@ answer TEXT
 
 INSERT INTO expected_results values("111122", "question3", "37");
 
+CREATE TABLE results
+(
+date DATE,
+question_id INT,
+answer,
+score
+);
 
