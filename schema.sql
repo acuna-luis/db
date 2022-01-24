@@ -7,4 +7,4 @@ id INTEGER AUTO_INCREMENT,
 name TEXT,
 PRIMARY KEY (id)
 );
-INSERT INTO user values(1,'Luis Acuña');
+INSERT INTO user values(111122,'Luis Acuña');
