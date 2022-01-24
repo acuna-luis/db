@@ -17,11 +17,11 @@ question TEXT,
 PRIMARY KEY (id)
 );
 
-INSERT INTO questions values(1,'question1', '¿Qué día de la semana es');
-INSERT INTO questions values(2,'question2', '¿Qué fecha es hoy?');
-INSERT INTO questions values(3,'question3', '¿Qué edad tienes?');
-INSERT INTO questions values(4,'game1', '¿Cuanto es la suma entre 11 y 15?');
-INSERT INTO questions values(5,'game2', 'Si la vocal "a" es la posición 1 y la "u" es la 5, qué posición es la "i"?');
+INSERT INTO questions values(1,'question1', 'Que dia de la semana es?');
+INSERT INTO questions values(2,'question2', 'Que dia del mes es hoy?');
+INSERT INTO questions values(3,'question3', 'Que edad tienes?');
+INSERT INTO questions values(4,'game1', 'Cuanto es la suma entre 11 y 15?');
+INSERT INTO questions values(5,'game2', 'Si la vocal "a" esta en la posicion 1 y la "u" esta en la 5, que posicion esta la "i"?');
 
 CREATE TABLE expected_results
 (
@@ -36,8 +36,9 @@ CREATE TABLE results
 (
 date DATE,
 session TEXT,
-question_id INT,
+intent TEXT,
 answer TEXT,
-score float
+score float,
+identity_id TEXT
 );
 
