@@ -27,7 +27,7 @@ CREATE TABLE expected_results
 (
 user_id TEXT,
 question_id TEXT,
-answer TEXT,
+answer TEXT
 );
 
 INSERT INTO expected_results values("111122", "question3", "37");
