@@ -31,7 +31,9 @@ intent TEXT,
 answer TEXT
 );
 
+
 INSERT INTO expected_results values("111122", "question3", "37");
+INSERT INTO expected_results values("123", "question3", "36");
 
 CREATE TABLE results
 (
