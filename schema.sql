@@ -26,7 +26,7 @@ INSERT INTO questions values(5,'game2', 'Si la vocal "a" esta en la posicion 1 y
 CREATE TABLE expected_results
 (
 user_id TEXT,
-question_id TEXT,
+intent TEXT,
 answer TEXT
 );
 
