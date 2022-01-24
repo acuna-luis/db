@@ -35,6 +35,7 @@ INSERT INTO expected_results values("111122", "question3", "37");
 CREATE TABLE results
 (
 date DATE,
+session TEXT,
 question_id INT,
 answer TEXT,
 score float
