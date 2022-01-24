@@ -37,6 +37,6 @@ CREATE TABLE results
 date DATE,
 question_id INT,
 answer TEXT,
-score float,
+score float
 );
 
