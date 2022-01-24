@@ -7,7 +7,8 @@ id INTEGER AUTO_INCREMENT,
 name TEXT,
 PRIMARY KEY (id)
 );
-INSERT INTO user values(111122,'Luis Acuña');
+INSERT INTO user values(111122,'Luis Acuna');
+INSERT INTO user values(123,'Carolina Moraga');
 
 CREATE TABLE questions
 (
