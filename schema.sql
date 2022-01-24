@@ -12,8 +12,8 @@ INSERT INTO user values(111122,'Luis Acuña');
 CREATE TABLE questions
 (
 id INTEGER AUTO_INCREMENT,
-name TEXT,
 intent TEXT,
+question TEXT,
 PRIMARY KEY (id)
 );
 
