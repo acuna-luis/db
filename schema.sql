@@ -5,7 +5,7 @@ id TEXT,
 name TEXT
 );
 INSERT INTO user values('123','Carolina Moraga');
-INSERT INTO user values('luis.acunavega@alum.uca.es','Luis Acuña');
+INSERT INTO user values('luis.acunavega@alum.uca.es','Luis Acuna');
 INSERT INTO user values('thamyres.choji@alum.uca.es','Thamyres Choji');
 
 
