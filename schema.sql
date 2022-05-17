@@ -1,7 +1,7 @@
-USE seniority;
+USE td;
 CREATE TABLE user
 (
-id INTEGER AUTO_INCREMENT,
+id TEXT,
 name TEXT,
 PRIMARY KEY (id)
 );
