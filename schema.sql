@@ -18,7 +18,7 @@ question TEXT,
 PRIMARY KEY (id)
 );
 
-INSERT INTO questions values(1,'question1', 'Que dia de la semana es?');
+INSERT INTO questions values(1,'question1', '¿En qué podemos ayudarte?');
 INSERT INTO questions values(2,'question2', 'Que dia del mes es hoy?');
 INSERT INTO questions values(3,'question3', 'Que edad tienes?');
 INSERT INTO questions values(4,'game1', 'Cuanto es la suma entre 11 y 15?');
