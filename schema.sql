@@ -7,6 +7,7 @@ PRIMARY KEY (id)
 );
 INSERT INTO user values(111122,'Luis Acuna');
 INSERT INTO user values(123,'Carolina Moraga');
+INSERT INTO user values('leacunavega@gmail.com','Luis Acuña');
 
 CREATE TABLE questions
 (
