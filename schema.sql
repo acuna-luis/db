@@ -4,7 +4,7 @@ CREATE TABLE user
 id TEXT,
 name TEXT
 );
-INSERT INTO user values('123','Carolina Moraga');
+INSERT INTO user values('a@a.a','Carolina Moraga');
 INSERT INTO user values('luis.acunavega@alum.uca.es','Luis Acuna');
 INSERT INTO user values('thamyres.choji@alum.uca.es','Thamyres Choji');
 
@@ -37,6 +37,7 @@ INSERT INTO expected_results values("123", "question3", "36");
 CREATE TABLE results
 (
 date DATE,
+identity_id TEXT,
 session TEXT,
 answer TEXT,
 score float
