@@ -1,5 +1,5 @@
-docker build -t luisacuna/seniority-db .
-docker push luisacuna/seniority-db
+docker build -t luisacuna/td-db .
+docker push luisacuna/td-db
 git add *
 git commit -m "commit"
 git push
