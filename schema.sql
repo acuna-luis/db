@@ -2,8 +2,7 @@ USE td;
 CREATE TABLE user
 (
 id TEXT,
-name TEXT,
-PRIMARY KEY (id)
+name TEXT
 );
 INSERT INTO user values('123','Carolina Moraga');
 INSERT INTO user values('luis.acunavega@alum.uca.es','Luis Acuña');
