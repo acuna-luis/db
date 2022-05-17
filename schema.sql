@@ -5,9 +5,10 @@ id TEXT,
 name TEXT,
 PRIMARY KEY (id)
 );
-INSERT INTO user values(111122,'Luis Acuna');
-INSERT INTO user values(123,'Carolina Moraga');
-INSERT INTO user values('leacunavega@gmail.com','Luis Acuña');
+INSERT INTO user values('123','Carolina Moraga');
+INSERT INTO user values('luis.acunavega@alum.uca.es','Luis Acuña');
+INSERT INTO user values('thamyres.choji@alum.uca.es','Thamyres Choji');
+
 
 CREATE TABLE questions
 (
