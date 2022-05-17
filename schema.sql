@@ -38,9 +38,7 @@ CREATE TABLE results
 (
 date DATE,
 session TEXT,
-intent TEXT,
 answer TEXT,
-score float,
-identity_id TEXT
+score float
 );
 
